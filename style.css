@@ -11,10 +11,6 @@ header {
     z-index: 1;
 }
 
-.menu {
-    display: none;
-}
-
 header ul li{
     list-style: none;
 }
@@ -439,23 +435,21 @@ footer {
 
 @media screen and (max-width:426px) {
 
-    .first-menu {
-        display: block;
-    }
-
-    .menu {
-        display: none;
+    header {
+        font-size: 8px;
+        margin: 10px 0;
     }
 
     nav ul li img {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 10%;
+       display: block;
+       position: absolute;
+       left: 10px;
+       top: -10px;
+       width: 30px;
     }
     
     nav ul li {
-        margin: 0 5px;
+        margin: 0 5px 0 0;
     }
 
     nav ul li:nth-child(4) {
